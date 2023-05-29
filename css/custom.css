@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+    
+}
+
+main{
+    background-color: #e3edf7;
+}
+
+footer{
+    background-color: #f8f9fa !important;
+}
+
+#featureimg img{
+    margin: 12px;
+}
+
+#featurednews{
+    justify-content: center;
+}
+.card{
+    margin: 12px;
+}
+
+#featuredpromo{
+    background-image: url("/assets/featuredpromo.jpg");
+    background-size: cover;
+    height: 25rem;
+    color: white;
+}
+
+#featuredpromo2{
+    background-image: url("/assets/newslider1.jpg");
+    background-size: cover;
+    height: 19rem;
+    color: white;
+    /* padding: 6rem; */
+}
+
+#featuredpromo3{
+    background-image: url("/assets/subscription1.jpg");
+    background-size: cover;
+    height: 25.5rem;
+    color: white;
+    /* padding: 6rem; */
+}
+
+
+
+
+#featuredpromo .container{
+    padding: 2px;
+    margin-top: 3rem;
+}
+
+#navbarright{
+    padding: 15px;
+}
+
+#navbarright a{
+    margin: 10px;
+}
+
+
+
+
+main .container .gamelist img{
+    height: 300px;
+    width: 450px;
+    
+}
+
+main .category{
+    background-color: #e2daeb;
+}
+
+
+main .text-light{
+    color: white !important;
+}
+
+main .container #colortagnews{
+    color: #ff4747
+}
+
+main #listsubs{
+    text-decoration: none;
+}
+
+main #listsubs li{
+    list-style: none;
+    padding: 7px;
+}
+
+main .container .row .listsubs{
+    padding: 10px;
+    margin: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 28rem;
+}
+
+main .container .row .listsubs hr{
+    width: 70%;
+}
+
+main .container .row .listsubs .below{
+    width: 30% !important;
+    height: 1.5%;
+    border:none;
+    border-radius: 10px;
+    background: #23b1cc;
+}
+
+
+
+main .container .row .listsubs .buttonsubs{
+    background-color: #09bdd9;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+}
+
+/* .listgamecateg img {
+    width: 300px;
+    height: 300px;
+} */
+
+main .listgamecateg p {
+    padding: 5px;
+    margin: 2px;
+}
+.judul {
+    font-size: 40px;
+    
+}
