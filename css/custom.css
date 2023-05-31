@@ -25,14 +25,14 @@ footer{
 }
 
 #featuredpromo{
-    background-image: url("/assets/featuredpromo.jpg");
+    background-image: url("../assets/featuredpromo.jpg");
     background-size: cover;
     height: 25rem;
     color: white;
 }
 
 #featuredpromo2{
-    background-image: url("/assets/newslider1.jpg");
+    background-image: url("../assets/newslider1.jpg");
     background-size: cover;
     height: 19rem;
     color: white;
