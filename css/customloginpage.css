@@ -41,12 +41,22 @@ span {
     padding: 10px 0 10px 0;
 }
 
+small{
+    color: lightgrey;
+    padding: 10px 0 10px 0;
+    
+}
+
 header {
     color: #fff;
     font-size: 30px;
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
+}
+
+.resetpassword{
+    margin: 8px;
 }
 
 .input-field .input {
@@ -120,4 +130,23 @@ label a {
 
 .bottom a:hover{
     background-color: grey;
+}
+
+.container .two-col .two a:hover{
+    background-color: grey;
+}
+
+
+body .box #resetemail{
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 350px;
+    height: 310px;
+}
+
+body .box #resetpasswordbox{
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 350px;
+    height: 380px;
 }

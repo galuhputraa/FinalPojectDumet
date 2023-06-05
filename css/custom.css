@@ -6,7 +6,7 @@
 }
 
 main{
-    background-color: #e3edf7;
+    background-color: #f4f7ff;
 }
 
 footer{
@@ -40,7 +40,7 @@ footer{
 }
 
 #featuredpromo3{
-    background-image: url("/assets/subscription1.jpg");
+    background-image: url("../assets/subscription1.jpg");
     background-size: cover;
     height: 25.5rem;
     color: white;
@@ -135,4 +135,53 @@ main .listgamecateg p {
 .judul {
     font-size: 40px;
     
+}
+
+
+/* testimonial page */
+
+
+
+main .testimonials .below2{
+    width: 30%;
+    height: 100%;
+    /* border:none; */
+    border-radius: 10px;
+    background: #23b1cc;
+}
+
+/* main .container .row .below{
+    width: 30% !important;
+    height: 1.5%;
+    border:none;
+    border-radius: 10px;
+    background: #23b1cc;
+} */
+
+main .testimonials .row{
+    margin-top: 3%;
+}
+main .testimonials .listimgtesti {
+    width: 100px;
+   
+}
+
+
+
+main .testimonials .card-body{
+    margin: 5%;
+    padding: 2%;
+    
+}
+
+main .testimonials h5{
+    padding: 20px;
+}
+
+main .testimonials .card-body p{
+    margin-top: 3%;
+}
+
+main .testimonials .card{
+    border-radius: 10px;
 }
