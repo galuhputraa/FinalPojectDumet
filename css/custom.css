@@ -185,3 +185,18 @@ main .testimonials .card-body p{
 main .testimonials .card{
     border-radius: 10px;
 }
+
+
+main .testimoni2 .quotetesti{
+    flex-direction: column;
+}
+.testimoni2{
+    padding: 5%;
+}
+
+main .testimonials .buttontesti{
+    background: #1d2b53;
+    color: white;
+    padding: 8px;
+    width: 12%;
+}
