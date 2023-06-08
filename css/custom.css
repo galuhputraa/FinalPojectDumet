@@ -5,12 +5,12 @@
     
 }
 
-main, section,.testhrgal{
+main,#navcategory,.testhrgal{
     background-color: #f4f7ff;
 }
 
 footer{
-    background-color: #f8f9fa !important;
+    background-color: #f8f9fa ;
     
 }
 
@@ -46,6 +46,12 @@ footer{
     height: 25.5rem;
     color: white;
     /* padding: 6rem; */
+}
+
+main .subscontainer{
+    height: 75vh;
+    
+    
 }
 
 
