@@ -29,8 +29,13 @@
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="./categorypage.html">Games <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="./categorypage.html" role="button" data-toggle="dropdown" aria-expanded="false">Games <span class="sr-only">(current)</span></a>
+              <div class="dropdown-menu">
+                <a href="./FPS-CategoryPage.html" class="dropdown-item">FPS</a>
+                <a href="./Adventure-CategoryPage.html" class="dropdown-item">Adventure</a>
+                <a href="./Racing-CategoryPage.html" class="dropdown-item">Racing</a>
+              </div>
             </li>
                 <!-- <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Action</a>
@@ -105,9 +110,35 @@
           </div>
     </div>
 
+    <section id="navcategory" class="d-flex justify-content-center">
+      <nav class="navbar navbar-expand-lg navbar-light  text-center">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+            <a class="nav-link" href="./FPS-CategoryPage.html">FPS</a>
+            <a class="nav-link" href="./Adventure-CategoryPage.html">Adventure</a>
+            <a class="nav-link" href="./Racing-CategoryPage.html">Racing</a>
+          </div>
+        </div>
+      </nav>
+      
+    </section>
+
+    <div class="row testhrgal">
+      <hr class="testhr2">
+    </div>
+    
+    
+
     <main>
+
+      
         
-        <h1 class="text-center p-4">Latest Game Category</H1>
+        <h1 class="text-center p-4 font-weight-bold">Latest Game Category</H1>
         <!-- kategori1 -->
         <h1 class="p-4 category">FPS</h1>
         <div class="container d-inline">
@@ -228,7 +259,7 @@
         <div class="container d-inline">
             
         
-          <<div class="row">
+          <div class="row">
             <div class="col">
                 <div class="card text-center listgamecateg">
                     <img src="./assets/adventure1.jpg" alt="" class="card-img rounded" alt="demo" width="300" height="300">

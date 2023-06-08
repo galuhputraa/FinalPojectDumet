@@ -5,12 +5,13 @@
     
 }
 
-main{
+main, section,.testhrgal{
     background-color: #f4f7ff;
 }
 
 footer{
     background-color: #f8f9fa !important;
+    
 }
 
 #featureimg img{
@@ -73,7 +74,7 @@ main .container .gamelist img{
 }
 
 main .category{
-    background-color: #e2daeb;
+    background-color: lavender;
 }
 
 
@@ -87,6 +88,7 @@ main .container #colortagnews{
 
 main #listsubs{
     text-decoration: none;
+    height: 20vh;
 }
 
 main #listsubs li{
@@ -131,6 +133,10 @@ main .container .row .listsubs .buttonsubs{
 main .listgamecateg p {
     padding: 5px;
     margin: 2px;
+}
+
+main.listgamecateg{
+    padding: 20px;
 }
 .judul {
     font-size: 40px;
@@ -200,3 +206,56 @@ main .testimonials .buttontesti{
     padding: 8px;
     width: 12%;
 }
+
+/* categorypage */
+
+main .d-inline .row{
+   margin: 10px; 
+   padding: 10px;
+
+}
+
+main .category{
+    margin: 30px;
+    /* padding-right: 30px; */
+}
+
+#navcategory{
+    height: 10vh;
+    
+}
+
+
+.testhr2{
+    width: 100%;
+    border: 1px solid lightgray ;
+    border-radius: 1px;
+    
+}
+
+#navcategory a:first-of-type{
+    border-left: 1px solid gray;
+}
+#navcategory a{
+    padding: 20px;
+    width: 19vh;
+    justify-content: space-between;
+    border-right: 1px solid gray;
+}
+
+
+
+#navcategory a:hover{
+    background: lightslategray;
+}
+
+
+/* fpscategory */
+
+main #categorypergame{
+    /* padding: 20px; */
+    padding: 20px;
+}
+
+
+
